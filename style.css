@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#banner {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+#header {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 74, 253, 1) 100%
+  );
+  width: 100%;
+  height: 60px;
+}
+
+#header ul li {
+  float: right;
+  list-style-type: none;
+  padding: 32px;
+}
+
+#header h1 {
+  float: left;
+  margin-top: 20px;
+}
+
+#banner {
+  background-color: #22c1c3;
+  width: 100%;
+  height: 500px;
+}
+
+img {
+  border: 1px solid white;
+}
+.photo {
+  float: left;
+  width: 40%;
+  margin-top: 30px;
+}
+.photo1 {
+  float: right;
+  width: 40%;
+  margin-top: 30px;
+}
+.left {
+  font-size: 20px;
+  float: left;
+}
+.right {
+  font-size: 20px;
+  float: right;
+}
+#navbar {
+  width: 1005;
+  height: 800px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.blockone {
+  margin: 20px 0;
+}
+.blocktwo {
+  width: 50%;
+  float: left;
+  height: 60%;
+  margin-top: 20px;
+}
+.blockthree {
+  float: right;
+}
+.label1 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  text-align: center;
+}
+
+.label2 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  text-align: center;
+}
+
+.label3 {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  text-align: center;
+}
+.m {
+  width: 100px;
+  height: 100px;
+}
+#navbar2 {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(163, 6, 6);
+  display: flex;
+}
+
+.nana {
+  color: aliceblue;
+  width: 50%;
+  margin-left: 250px;
+  margin-top: 15px;
+}
+
+.mdk {
+  color: aliceblue;
+  width: 30%;
+  flex-direction: column;
+  text-decoration: none;
+  margin-left: 400px;
+}
+
+.mfr {
+  padding: 30px;
+  margin-right: 140px;
+}
+
+.text {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 300px;
+  height: 25px;
+}
+
+.uk {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 300px;
+  height: 70px;
+}
+
+.yh {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 300px;
+  height: 25px;
+}
+
+button {
+  background-color: blue;
+  color: aliceblue;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(7, 7, 126);
+  color: aliceblue;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
